@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QGISWebScraperDialogBase</class>
+ <widget class="QDialog" name="QGISWebScraperDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ArgentinaGeoServices</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="wmsTreeWidget">
+     <column>
+      <property name="text">
+       <string>Institución</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Geoservicio Link</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="tipoFiltre">
+     <property name="currentText">
+      <string/>
+     </property>
+     <property name="maxVisibleItems">
+      <number>4</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="entidadFiltre"/>
+   </item>
+   <item alignment="Qt::AlignmentFlag::AlignHCenter">
+    <widget class="QPushButton" name="importButton">
+     <property name="text">
+      <string>Importar Geoservicio</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
